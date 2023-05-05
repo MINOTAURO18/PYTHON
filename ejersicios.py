@@ -41,7 +41,7 @@ elif cambio == "libras":
 else:
     print('operacion invalida')
 
-print('resultado: ', resultado , cambio)
+print('resultado: ', int(resultado) , cambio)
 
 
 
