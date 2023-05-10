@@ -67,6 +67,8 @@ calculadora
 # else:
 #     print('dato incorrecto')
 
+#ejersicios de hoy
+
 
 
 
