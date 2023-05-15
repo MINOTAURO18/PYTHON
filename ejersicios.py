@@ -1,3 +1,5 @@
+import math
+import random
 """
 ejersicios con python
 calculadora 
@@ -67,7 +69,97 @@ calculadora
 # else:
 #     print('dato incorrecto')
 
-#ejersicios de hoy
+
+# 10/5/2023
+
+# 1  Crear un programa que calcule el promedio de tres números ingresados por el usuario.
+
+# num1 = float(input('ingresar primer numero bastardo: '))
+# num2 = float(input('ingresar segundo numero bastardo: '))
+# num3 = float(input('ingresar tercero numero bastardo: '))
+
+# resultado = num1 + num2 + num3 / 3
+
+# print( f'resultado: {round(resultado,3)}')
+
+#  Crear un programa que pida al usuario ingresar un número entero y luego imprima todos los números pares desde 0 hasta ese número.
+
+#  Crear un programa que pida al usuario ingresar una lista de números separados por comas y luego calcule su suma.
+
+# num1 = float(input('ingrese numero 1: '))
+# num2 = float(input('ingrese numero 2: '))
+# num3 = float(input('ingrese numero 3: '))
+# num4 = float(input('ingrese numero 4: '))
+
+# resu = num1 + num2 + num3 + num4
+
+# print(int(resu))
+
+
+#  Crear un programa que pida al usuario ingresar una cadena de caracteres y luego imprima su longitud.
+
+
+#Cálculo de la edad: Pide al usuario que ingrese su fecha de nacimiento y calcula su edad en años.
+
+#Cálculo de la potencia: Pide al usuario que ingrese una base y exponente y calcula la potencia.
+
+# BASE = float(input('ingrese base(osea un numero que le de la puta gana): '))
+# POTENCIA = float(input('ingrese potencia (otro numero soimbecil): '))
+
+# RESULT = math.pow(BASE, POTENCIA)
+# if POTENCIA < 0:
+#     print('anda a joder a tu madre marikita')
+# else:
+#     print(int(RESULT))
+
+# def NUMERO_RAMDON () :   
+#     QUESTION = float(input('escribe un numero: '))
+
+#     RANDON = random.randint(1,100)
+#     if QUESTION != RANDON:
+#         print(f'{int(QUESTION)} y {RANDON} intenta de nuevo')
+#         NUMERO_RAMDON()
+#     else:
+#         print(f'{QUESTION} y {RANDON} ganaste care verga')
+
+# NUMERO_RAMDON()
+
+
+#Escriba un programa que tome una lista de números enteros y devuelva el número más grande de la lista.
+# def COMPARACION ():   
+#   cadena_uno = input('primera valor: ')
+#   cadena_dos = input('segundo valor: ')
+
+#   if cadena_uno == cadena_dos:
+#       print('son iguales')
+#   else:
+#       print('no son iguales')
+#       COMPARACION()
+
+
+# COMPARACION()
+
+#es hacer una lista de frutas que la persona pregunta por una fruta y uno debe decir si esta o no
+
+
+
+
+#Calculadora de interés: Crea un programa que solicite al usuario una cantidad de dinero, una tasa de interés y un período de tiempo, y calcule el interés ganado.
+
+#Donde K es el capital inicial
+#i es el interés 
+#n es el número de periodos
+
+#K*(1+i)^n.
+# CAPITAL_INICIAL = input('ingrese su capital: ')
+# PERIODO = input('periodo de tiempo: ')
+
+# CAPITAL_INICIAL = float(CAPITAL_INICIAL)
+# PERIODO = float(PERIODO)
+
+# RESULTADO = CAPITAL_INICIAL * (1.02) ** PERIODO
+
+# print(f"{RESULTADO:.2f}")
 
 
 
