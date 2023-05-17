@@ -161,14 +161,39 @@ calculadora
 
 # print(f"{RESULTADO:.2f}")
 
+#Validación de contraseñas: Escribe un programa que solicite al usuario una contraseña y valide si cumple con ciertos requisitos, como una longitud mínima y la inclusión de caracteres especiales.
+# def PASSWORD_VALIDATOR ():    
+#     PASSWORD = input('digite su password: ')
+
+#     if '*' in PASSWORD and len(PASSWORD) > 9:
+#         print('contraseña correcta')
+#     else:
+#         print('contraseña incorrecta')
+#         PASSWORD_VALIDATOR()
 
 
+# PASSWORD_VALIDATOR()
+# def AREA ():    
+#     RADIO = input('ESCRIBA UN RADIO(un numero gay): ')
+#     RADIO = float(RADIO)
+#     RESULT = 3.1416 * pow(RADIO,2)
+#     print(f"el area del circulo es: {int(RESULT)} cm al cuadrado" )
+#     AREA()
+
+# AREA()
 
 
+#Contador de palabras repetidas: Escribe un programa que reciba un texto y cuente cuántas veces se repite cada palabra en él.
 
+# text = input('escriba una frase: ')
+# text2 = text.split(' ')
+# primero = text2[0]
 
-
-
+# CONTADOR = 0
+# for i in text2:
+#     if primero == i:
+#         CONTADOR += 1
+#     print(f'el numero de palabras repetidas es {CONTADOR}')
 
 
 
