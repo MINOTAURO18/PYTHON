@@ -195,8 +195,21 @@ calculadora
 #         CONTADOR += 1
 #     print(f'el numero de palabras repetidas es {CONTADOR}')
 
+#Encontrar todos los números pares e impares en una lista.
+# question = input('escribe una lista de numeros: ')
+# question = list(question)
+# questionInt = map(int, question)
 
+# pares = []
+# inpares = []
 
+# for i in questionInt:
+#     if i % 2 == 0:
+#         pares.append(i)
 
+#     else:
+#         inpares.append(i)
+
+# print(f"los numeros pares son {pares} y los inpares son {inpares}")
 
 
