@@ -241,3 +241,19 @@ calculadora
 
 # print(SUMAR('88644'))
 
+
+
+#Escribe una función que tome una lista de números y devuelva la suma de los elementos pares.
+# def suma_de_numeros_pares():
+#     numeros = [1,2,3,4,5,6,7,8,9,10,11,22]
+#     pares = []
+#     suma = 0
+#     for i in numeros:
+#         if i % 2 == 0:
+#             pares.append(i)
+#     for a in pares:
+#         suma = suma + a
+#     print(f"los numeros pares de la lista son: {pares}")
+#     print(f"la suma de los numeros pares es: {suma}")
+# suma_de_numeros_pares()
+
