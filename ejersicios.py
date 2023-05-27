@@ -257,3 +257,36 @@ calculadora
 #     print(f"la suma de los numeros pares es: {suma}")
 # suma_de_numeros_pares()
 
+# Implementa un juego de piedra, papel y tijeras en el que el jugador juegue contra la computadora.
+# def ppt():
+#     elige = input('Piedra - Papel - Tijera: ')
+#     elige = elige.lower()
+#     juego = ['piedra', 'papel','tijera']
+#     al = random.choice(juego)
+#     if elige == al:
+#       ppt()
+#     elif al == 'piedra' and elige == 'tijera':
+#       print('gano la maquina')
+#     elif al == 'tijera' and elige == 'piedra':
+#        print('ganaste')
+#     elif al == 'papel' and elige == 'piedra':
+#       print('gano la maquina')
+#     elif al == 'piedra' and elige == 'papel':
+#       print('ganaste')
+#     elif al == 'tijera' and elige == 'papel':
+#       print('maquina')
+#     elif al == 'papel' and elige == 'tijera':
+#       print('ganaste')
+#     else:
+#       print('largate hija de la chingada')
+      
+# ppt()
+"""
+papel gana piedra
+
+piedra gana tijeras
+
+tijera gana papel 
+"""
+
+
