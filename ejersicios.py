@@ -289,4 +289,11 @@ piedra gana tijeras
 tijera gana papel 
 """
 
+#Crea una función que tome una lista de palabras y devuelva la longitud promedio de las palabras.
 
+# def lista_palabras(lista):
+#     suma = 0
+#     for i in lista:
+#         suma += len(i) 
+#     print(suma / len(lista))
+# lista_palabras(['alex', 'coste', 'patron', 'santiago', 'chica'])
