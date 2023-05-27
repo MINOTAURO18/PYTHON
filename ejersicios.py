@@ -212,4 +212,32 @@ calculadora
 
 # print(f"los numeros pares son {pares} y los inpares son {inpares}")
 
+#Verificar si dos listas tienen elementos comunes.
+
+
+# poderoso
+# uno = [6,2,3,4,5]  
+# dos = [6,6,6,6]
+# combi = uno + dos
+# primer = combi[0]
+# on=[]
+# def com():  
+#   for i in combi:
+#       if primer == i+1:
+#          return on.append('true')
+      
+#       return on.append('false')
+# com()
+  
+# print(on)
+
+#Escribe una función llamada sumar_digitos(numero) que tome un número entero como parámetro y calcule la suma de sus dígitos.
+
+# def SUMAR (entero):
+#     suma = 0
+#     for i in entero:
+#         suma += int(i)
+#     return suma
+
+# print(SUMAR('88644'))
 
