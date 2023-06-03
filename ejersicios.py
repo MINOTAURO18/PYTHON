@@ -1,4 +1,4 @@
-
+import math 
 """
 ejersicios con python
 calculadora 
@@ -321,3 +321,14 @@ tijera gana papel
 #         print(i)
 
 # print(loquesea(10))
+
+# Crear una función que encuentre la suma de todos los números pares en una lista.
+
+# def suma (arr):
+#     sumaa = 0;
+#     for i in arr:
+#         if i % 2 == 0:
+#             sumaa += i;
+#     return sumaa
+
+# print(suma([1,2,3,4,5,6,7,8,9,10,40]))
