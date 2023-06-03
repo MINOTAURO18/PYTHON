@@ -1,5 +1,4 @@
-import math
-import random
+
 """
 ejersicios con python
 calculadora 
@@ -297,3 +296,28 @@ tijera gana papel
 #         suma += len(i) 
 #     print(suma / len(lista))
 # lista_palabras(['alex', 'coste', 'patron', 'santiago', 'chica'])
+
+
+# Crear una función que calcule el factorial de un número dado.
+
+# Desarrollar un programa que genere una lista de los primeros n números primos.
+
+# def primos(num):
+#     if num == 2:
+#         return 'es primo'
+#     if num < 2:
+#         return 'no es primo'
+#     for i in range(2,num):
+#         if num % i != 0:
+#             return 'es primo'
+#         else:
+#             return 'no es primo'      
+   
+
+# print(primos(7))
+
+# def loquesea(n):
+#     for i in range(n + 1 ):
+#         print(i)
+
+# print(loquesea(10))
