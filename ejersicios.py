@@ -332,3 +332,14 @@ tijera gana papel
 #     return sumaa
 
 # print(suma([1,2,3,4,5,6,7,8,9,10,40]))
+
+
+# Implementar un programa que ordene una lista de números utilizando el algoritmo de ordenamiento de burbuja.
+# def algoritmo(arr): 
+#     n= len(arr)
+#     for i in range(n):
+#         for j in range(0, n-i-1):
+#             if arr[j] > arr[j+1]:
+#                 arr[j], arr[j+1] = arr[j+1], arr[j]
+#     return arr
+# print(algoritmo([2,3,5,48,1,78]))
